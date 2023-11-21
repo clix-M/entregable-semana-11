@@ -7,6 +7,8 @@ import lombok.NoArgsConstructor;
 
 import java.util.Date;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -15,5 +17,6 @@ public class Producto {
     private Long id;
     private String nombre;
     private Double precio;
+    @JsonFormat(pattern="yyyy-MM-dd")
     private Date createAt;
 }
