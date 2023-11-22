@@ -11,4 +11,4 @@
 localhost:9090
 
 ## microservicio 2 - Item
-localhost:9090
+localhost:8080
